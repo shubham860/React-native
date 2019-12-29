@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-import { Text, View } from 'react-native';
-
+import Blinker from './components/Blinker';
+import Styling from './components/Styling';
 class App extends Component {
-  render() {
+
+    render() {
     return (
-        <View>
-          <Text>Hello, world!</Text>
-        </View>
+       <Styling/>
     );
   }
 }
